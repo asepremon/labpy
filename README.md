@@ -52,6 +52,8 @@ Menambahkan File baru pada repository
 • File README.md berhasil ditambahkan. 
 
      $ git add README.md
+     
+ ![2](https://user-images.githubusercontent.com/56527876/66983992-08103380-f0e4-11e9-8204-b21e15c708a2.png)
 
 Commit (Menyimpan perubahan ke database)
 
@@ -60,6 +62,8 @@ Commit (Menyimpan perubahan ke database)
 • Perubahan berhasil disimpan.
 
     $ git commit -m “File pertama saya”
+    
+![3](https://user-images.githubusercontent.com/56527876/66983746-756f9480-f0e3-11e9-811b-dd29a81e9688.png)
 
  Membuat repository server
 
@@ -90,3 +94,12 @@ Commit (Menyimpan perubahan ke database)
 • Untuk mengirim perubahan pada local repository ke server gunakan perintah git push.
 
 • Perintah ini akan meminta memasukkan username dan password pada akun github.com 
+Push (Mengirim perubahan ke server)
+• Untuk mengirim perubahan pada local repository ke server gunakan perintah git push.
+• Perintah ini akan meminta memasukkan username dan password pada akun github.com
+    
+    $ git push -u origin master
+   
+   ![4](https://user-images.githubusercontent.com/56527876/66984524-10b53980-f0e5-11e9-9a2a-db72fb564fb1.png)
+
+    
